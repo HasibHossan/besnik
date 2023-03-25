@@ -1,0 +1,615 @@
+/* Extra Small devices (landscape phones, 425px and up) */
+@media (max-width: 320px){
+      /* common start  */
+h1{
+  font-size: 20px;
+  line-height: 40px;
+}
+  .b-txt h1 {
+    margin-top: 70px;
+    margin-bottom: 0px;    
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.b-txt p{
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0px 10px;
+  text-align: center;
+
+}
+
+/* banner end  */
+.booking-form {
+  bottom: -120px;
+}
+.c-b{
+  border: none;
+}
+
+
+form {
+  background: #F1F1F1;
+}
+
+form#search-form select, form#search-form input {
+padding: 0px;
+text-align: center;
+}
+form#search-form button {
+  padding: 0px;
+}
+ form#search-form select,
+    form#search-form input {
+      border: 1px solid #8d99af;
+      border-radius: 7px;
+      margin-bottom: 5px;
+    }
+    form#search-form button {
+      border-radius: 7px;
+    }
+
+/* owl carosul start  */
+.owl-carosul{
+  margin: 280px 0 80px 0px;
+}
+.owc-icon i{
+  font-size: 20px;
+  
+}       
+.owc-h1 h1 {
+  font-size: 19px;
+  line-height: 35px;
+}
+.owc-h1 span{
+  height: 30px;
+}
+/* how it work start  */
+.how-it-work{
+
+}
+.hiw-btn{
+  height: 60px;
+  width: 60px;
+}
+
+
+.hiw-btn i{
+  font-size: 20px;
+}
+.how-it-work h2{
+  margin: 30px 0 10px 0;
+  font-size: 20px;
+}
+.how-it-work p{
+  font-size: 14px;
+  margin: 0  20px 20px 20px;
+}
+/* how it work end  */
+
+}
+
+/* Extra Small devices (landscape phones, 425px and up) */
+@media (min-width: 321px) and (max-width: 375px){
+      /* common start  */
+h1{
+  font-size: 20px;
+  line-height: 40px;
+}
+  .b-txt h1 {
+    margin-top: 80px;
+    margin-bottom: 0px;    
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.b-txt p{
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0px 10px;
+  text-align: center;
+
+}
+
+/* banner end  */
+.booking-form {
+  bottom: -120px;
+}
+.c-b{
+  border: none;
+}
+
+
+form {
+  background: #F1F1F1;
+}
+
+
+form#search-form select, form#search-form input {
+padding: 0px;
+text-align: center;
+}
+form#search-form button {
+  padding: 0px;
+}
+ form#search-form select,
+    form#search-form input {
+      border: 1px solid #8d99af;
+      border-radius: 7px;
+      margin-bottom: 10px;
+      height: 30px;
+    }
+    form#search-form button {
+      border-radius: 7px;
+    }
+/* owl carosul start  */
+.owl-carosul{
+  margin: 350px 0 80px 0px;
+}
+.owc-icon i{
+  font-size: 25px;
+  
+}       
+.owc-h1 h1 {
+  font-size: 25px;
+  line-height: 25px;
+}
+.owc-h1 span{
+  height: 50px;
+}
+/* how it work start  */
+.how-it-work{
+
+}
+.hiw-btn{
+  height: 60px;
+  width: 60px;
+}
+
+
+.hiw-btn i{
+  font-size: 20px;
+}
+.how-it-work h2{
+  margin: 30px 0 10px 0;
+  font-size: 20px;
+}
+.how-it-work p{
+  font-size: 14px;
+}
+/* how it work end  */
+
+}
+
+
+
+
+/* Extra Small devices (landscape phones, 425px and up) */
+@media (min-width: 376px) and (max-width: 425px){
+      /* common start  */
+h1{
+  font-size: 20px;
+  line-height: 40px;
+}
+
+  .b-txt h1 {
+    margin-top: 85px;
+    margin-bottom: 0px;    
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+.b-txt p{
+
+  margin: 10px 0px 10px;
+  text-align: center;
+
+}
+/* banner end  */
+.booking-form {
+  bottom: -120px;
+}
+.c-b{
+  border: none;
+}
+
+
+form {
+  background: #F1F1F1;
+}
+
+
+form#search-form select, form#search-form input {
+padding: 0px;
+text-align: center;
+}
+form#search-form button {
+  padding: 0px;
+}
+ form#search-form select,
+    form#search-form input {
+      border: 1px solid #8d99af;
+      border-radius: 7px;
+      margin-bottom: 15px;
+    }
+    form#search-form button {
+      border-radius: 7px;
+    }
+
+/* owl carosul start  */
+.owl-carosul{
+  margin: 350px 0 80px 0px;
+}
+.owc-icon i{
+  font-size: 25px;
+  
+}       
+.owc-h1 h1 {
+  font-size: 25px;
+  line-height: 25px;
+}
+.owc-h1 span{
+  height: 50px;
+}
+/* how it work start  */
+.how-it-work{
+
+}
+.hiw-btn{
+  height: 60px;
+  width: 60px;
+}
+
+
+.hiw-btn i{
+  font-size: 20px;
+}
+.how-it-work h2{
+  margin: 30px 0 10px 0;
+  font-size: 20px;
+}
+.how-it-work p{
+  font-size: 14px;
+  margin: 0  20px 20px 20px;
+}
+/* how it work end  */
+
+
+}
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 426px) (max-width: 575.98px) {
+
+    /* common start  */
+h1{
+  font-size: 20px;
+  line-height: 40px;
+}
+/* common end  */
+  
+  .b-txt h1 {
+    margin-top: 70px;
+    margin-bottom: 0px;    
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+.b-txt p{
+
+  margin: 10px 0px 10px;
+  text-align: center;
+
+}
+/* banner end  */
+.booking-form {
+  overflow: hidden;
+  bottom: -120px;
+}
+.c-b{
+  border: none;
+}
+
+
+form {
+  background: #F1F1F1;
+}
+form#search-form select, form#search-form input {}
+
+form#search-form select, form#search-form input {
+padding: 0px;
+text-align: center;
+}
+form#search-form button {
+  padding: 0px;
+}
+ form#search-form select,
+    form#search-form input {
+      border: 1px solid #8d99af;
+      border-radius: 7px;
+      margin-bottom: 15px;
+    }
+    form#search-form button {
+      border-radius: 7px;
+    }
+/* owl carosul start  */
+    .owc-icon i{
+      font-size: 30px;
+      
+    }       
+    .owc-h1 h1 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+
+/* how it work start  */
+.how-it-work{
+
+}
+.hiw-btn{
+  height: 60px;
+  width: 60px;
+}
+
+
+.hiw-btn i{
+  font-size: 20px;
+}
+.how-it-work h2{
+  margin: 30px 0 10px 0;
+  font-size: 25px;
+}
+.how-it-work p{
+  font-size: 14px;
+  
+
+}
+/* how it work end  */
+
+
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* common start  */
+h1{
+  font-size: 25px;
+  line-height: 40px;
+}
+/* common end  */
+  .b-txt h1 {
+    margin: 80px 50px 0 50px;      
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+}
+.b-txt p{
+  font-size: 14px;
+  margin: 15px 20px 15px;
+  text-align: center;
+
+}
+/* banner end  */
+.booking-form {
+ 
+  bottom: -120px;
+}
+.c-b{
+  border: none;
+}
+
+
+form {
+  background: #F1F1F1;
+}
+
+
+form#search-form select, form#search-form input {
+padding: 0px;
+text-align: center;
+}
+form#search-form button {
+  padding: 0px;
+}
+ form#search-form select,
+    form#search-form input {
+      border: 1px solid #8d99af;
+      border-radius: 7px;
+      margin-bottom: 15px;
+    }
+    form#search-form button {
+      border-radius: 7px;
+    }
+    /* owl carosul start  */
+    .box{
+      width: 70%;
+      height: 150px;
+      justify-content: center;
+    }
+.owl-carosul{
+    margin: 400px 0 100px 0px;
+}
+.owc-icon{
+  font-size: 30px;
+  text-align: left;
+}
+
+.owc-icon i{
+  margin-bottom: 10px;
+}
+.owc-h1 h1{
+  
+  font-size: 25px;
+  line-height: 30px;
+}
+.owc-h1 span{
+  height: 60px;
+}
+.owc-h1 button{
+
+  height: 50px;
+  width: 56px;
+}
+/* owl carosul end  */
+/* how it work start  */
+.how-it-work{
+
+}
+.hiw-btn{
+  height: 60px;
+  width: 60px;
+}
+
+
+.hiw-btn i{
+  font-size: 20px;
+}
+.how-it-work h2{
+  margin: 30px 0 10px 0;
+  font-size: 25px;
+}
+.how-it-work p{
+  font-size: 14px;
+ 
+}
+/* how it work end  */
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/* banner start  */
+
+
+
+.b-txt h1 {
+     margin: 80px 100px 0 100px;  
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+.b-txt p{
+
+  margin: 20px 80px;
+  text-align: center;
+
+}
+/* banner end  */
+
+.booking-form {
+  overflow: hidden;
+  bottom: -100px;
+}
+form#search-form {
+  padding: 0px;
+}
+.c-b{
+  
+ padding: 0px;
+}
+
+form#search-form {
+  background: #F1F1F1;
+ 
+}
+form#search-form select, form#search-form input {}
+
+form#search-form select, form#search-form input {
+padding: 0px;
+text-align: center;
+}
+form#search-form button {
+  width: 150px;
+  padding: 0px;
+}
+/* owl carosul start  */
+.box{
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+.owc-icon{
+  font-size: 30px;
+  text-align: left;
+}
+.owc-h1 h1{
+  font-size: 25px;
+  line-height: 30px;
+}
+.owc-h1 button{
+
+  height: 50px;
+  width: 56px;
+}
+/* owl carosul end  */
+/* how it work start  */
+.how-it-work{
+
+}
+.hiw-btn{
+  height: 70px;
+  width: 70px;
+}
+
+
+.hiw-btn i{
+  font-size: 30px;
+}
+.how-it-work h2{
+  margin: 40px 0 15px 0;
+  font-size: 25px;
+}
+.how-it-work p{
+  font-size: 14px;
+}
+/* how it work end  */
+   
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* common start  */
+  h1{
+    font-size: 32px;
+  }
+  /* common end  */
+
+  .b-txt h1 {
+
+    font-size: 32px;
+    line-height: 50px;
+
+  }
+  .b-txt p{
+
+    margin: 20px 00px 0px 0;
+  }
+
+  
+  /* banner end  */
+
+
+      form .row {
+        
+    }
+    form#search-form{
+      padding: 0px;
+    }
+}
+
+ /* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1201px) and (max-width: 1399.98px) {
+  
+}
+
+/*  Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+}

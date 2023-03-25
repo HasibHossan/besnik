@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+    <!-- font start  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <!-- font end  -->
+  
+  
+    <!-- css link  -->
+    <!-- owl carosul start  -->
+    <link rel="stylesheet" href="vendor/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl/owl.theme.default.min.css">
+    <!-- owl carosul end   -->
+    
+   <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<header class="fixed-top">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+            <img src="/img/Logo.png" alt="logo" class="img-fluid">
+          </a>
+      
+
+           <!-- off canvash start  -->
+     <button class="btn  d-lg-none d-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="offcanvas offcanvas-end d-lg-none d-block" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small py-0">
+          <div class="navbar-nav ">
+            <a class="nav-link c-nav-item" aria-current="page" href="#">Home</a>
+            <a class="nav-link c-nav-item" href="#">Home</a>
+            <a class="nav-link c-nav-item" href="#">Services</a>
+            <a class="nav-link c-nav-item" href="#">About</a>
+            <a class="nav-link c-nav-item" href="#">Contact us</a>
+          </div>
+        </div>
+      </div>
+    <!-- off canvash end  -->
+
+
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav m-auto c-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About </a>
+          </li>
+          <li class="nav-item m-0">
+            <a class="nav-link" href="#"> Contact us</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary me-0 nav-btn d-none.d-md-block d-lg-none "> Sign up</button>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-primary me-0 nav-btn d-lg-block d-none"> Sign up</button>
+    </div>
+    
+
+
+
+  </nav>
+</header>
+
+<!-- banner start  -->
+<section class="banner">
+  <div class="container-fluid">
+    <div class="row">
+      
+      <div class="col-lg-6 c-bg d-flex align-items-center">
+        <div class="b-txt ">
+          <div class="container p-lg-0">
+            <h1>Find the perfect place to stay with your family</h1>
+            <p>Besnik is insanely flexible and amazingly easy to use.This alone would be enough for a 5 star rating.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 p-0 d-lg-block d-none">
+        <div class="b-img">
+            <img src="img/banner.png" alt="" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="booking-form">
+        <div class="container">
+          <div class="col-lg-12">
+            <form id="search-form" name="gs" method="submit" role="search" action="#">
+              <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-2 col-12  align-self-center c-b">
+                    <fieldset>
+                        <select name="area" class="form-select" aria-label="Area" id="chooseCategory" onchange="this.form.click()">
+                            <option selected>Location</option>
+                            <option value="New Village">New Village</option>
+                            <option value="Old Town">Old Town</option>
+                            <option value="Modern City">Modern City</option>
+                        </select>
+                    </fieldset>
+                </div>
+                
+                
+                <!-- price range  -->
+                <div class="col-lg-2 col-md-2 col-12 align-self-center c-b">
+
+                  <fieldset>
+                    <select name="price" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
+                        <option selected>Price Range</option>
+                        <option value="$100 - $250">$100 - $250</option>
+                        <option value="$250 - $500">$250 - $500</option>
+                        <option value="$500 - $1000">$500 - $1,000</option>
+                        <option value="$1000+">$1,000 or more</option>
+                    </select>
+                </fieldset>
+                 
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-12 align-self-center c-b">
+
+                  <fieldset>
+                    <select name="price" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
+                        <option selected>Total SQ FT</option>
+                        <option value="$100 - $250">4500 - 5000+ </option>
+                        <option value="$250 - $500">3000 - 4500 </option>
+                        <option value="$500 - $1000">2000 - 3000</option>
+                        <option value="$1000+">1,000 or less</option>
+                    </select>
+                </fieldset>
+                 
+                </div>
+                
+                <div class="col-lg-2 col-md-2 col-12 align-self-center text-center c-b">
+                  <fieldset>
+                    <input type="address" name="address" class="searchText" placeholder="Rent Workspace" autocomplete="on" required>
+                  </fieldset>
+                </div>
+
+
+                <div class="col-lg-3 col-md-3 col-12 align-self-center">                        
+                    <fieldset>
+                        <button class="main-button"> 564 property found </button>
+                    </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- banner end  -->
+<section class="owl-carosul">
+  <div class="container">
+    <!-- owl-carousel  -->
+  
+      <div class="owl-carousel owl-theme  loop">
+        <!-- 1st slid  start-->
+        <div class="slider">
+          <div class="box">
+            <div class="owc-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="owc-h1 d-flex">
+              <h1>Want to sell a home in Besnik</h1> <span >
+                <button class="custom-btn btn-15">
+                  <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                </button></span>
+            </div>
+            <div class="owc-p"><p>Call the broker for a quote!</p></div>
+            
+          </div>
+        </div>
+        <!-- 1st slid end  -->
+        <!-- 2nd slid start -->
+       
+        <div class="slider">
+          <div class="box">
+            <div class="owc-icon">
+              <i class="fa-solid fa-house-chimney fa-flip-horizontal"></i>
+            </div>
+            <div class="owc-h1 d-flex">
+              <h1>Want to sell a home in Besnik</h1> <span >
+                <button class="custom-btn btn-15">
+                  <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                </button></span>
+            </div>
+            <div class="owc-p"><p>Call the broker for a quote!</p></div>
+            
+          </div>
+        </div>
+        <!-- 2nd slid end  -->
+        <!-- 3rd slid start -->
+       
+        <div class="slider">
+          <div class="box">
+            <div class="owc-icon">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="owc-h1 d-flex">
+              <h1>verify all your property paper</h1> <span >
+                <button class="custom-btn btn-15">
+                  <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                </button></span>
+            </div>
+            <div class="owc-p"><p>Book an appointment today </p></div>
+            
+          </div>
+        </div>
+        <!-- 3rd slid end  -->
+                
+        
+      </div>
+
+    
+    
+  </div>
+
+  </div>
+</section>
+<!-- owl carosul end  -->
+<!-- how-it-work start  -->
+<section class="how-it-work">
+  <div class="container">
+    <h1 class="text-center mb-5">How it works?</h1>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center ">
+        <div class="hiw-icon d-flex justify-content-center align-items-center">
+          <div class="hiw-btn d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        
+        <h2>Research Suburbs</h2>
+        <p>Get started swiftly & easily by importing a  demo of your choice in a single click.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center ">
+        <div class="hiw-icon d-flex justify-content-center align-items-center">
+          <div class="hiw-btn hiw2 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </div>
+        </div>
+        
+        <h2>Instant Valuation</h2>
+        <p>Over 30 high quality profession designed re-built website concepts to choose from.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center ">
+        <div class="hiw-icon d-flex justify-content-center align-items-center">
+          <div class="hiw-btn hiw3 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-building"></i>
+          </div>
+        </div>
+        
+        <h2>Track Property</h2>
+        <p>Build your website using fully visual interface, using our revolutionary page builder.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- how-it-work end  -->
+<!--all the stuff start  -->
+
+<section class="all-the-stuff">
+  <div class="conatiner">
+    <div class="ats-pic">
+      <img src="img/all-t-s.png" class="img-fluid" alt="all the stuff ">
+    </div>
+    <div class="ats-details">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 ats-d"></div>
+        <div class="col-lg-5 ats-d">
+          <h1>All the stuff you need and none that you dont</h1>
+          <p>Crafted with care by the authors of Oshine, a best seller with over 25K customers. Take complete control of your website.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--all the stuff end  -->
+
+    
+  
+ 
+  
+ 
+  
+
+ 
+
+
+
+ 
+
+  <!-- js/jq link -->
+  <!-- owl carosul start -->
+  <script src="js/jquery.min.js"></script>
+  <script src="vendor/owl/owl.carousel.js"></script>
+  <!-- owl carosul end  -->
+  <!-- mixit up start -->
+  <link rel="stylesheet" href="vendor/jquery.mixitup.min.js">
+ 
+  
+
+  <!-- mixit up end -->
+
+  <script src="https://kit.fontawesome.com/0854925fc8.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
